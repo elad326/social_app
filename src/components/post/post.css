@@ -38,6 +38,45 @@
                 cursor: pointer;
             }
         }
+
+        & .postCenter{
+            margin: 20px 0;
+
+            & .postImg{
+                margin-top: 20px;
+                width: 100%;
+                max-height: 500px;
+                object-fit: contain;
+            }
+        }
+
+        & .postBottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & .postBottomLeft{
+                display: flex;
+                align-items: center;
+
+                & .likeIcon{
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+
+                & .postLikesCounter{
+                    font-size: 15px;
+                }
+            }
+
+            & .postCOmmentsText{
+                font-size: 15px;
+                cursor: pointer;
+                border-bottom: 1px dashed gray;
+            }
+        }
     }
     
 }
